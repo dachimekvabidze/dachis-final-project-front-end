@@ -1,0 +1,16 @@
+/* header */
+header {
+    height:80px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.20);;
+    position:fixed;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.tbc_logo {
+    width: 60px;
+    height: 60px;
+}
