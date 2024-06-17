@@ -4,7 +4,8 @@ header {
     width:100%;
     background-color: rgba(0, 0, 0, 0.20);;
     position:fixed;
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-left: 70px;
     padding-right: 70px;
@@ -13,4 +14,41 @@ header {
 .tbc_logo {
     width: 60px;
     height: 60px;
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+.h1a {
+    color: #E5E5E5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+}
+
+.h1a_active {
+    color: #ffffff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+}
+
+.line {
+    width: 0.5px;
+    height: 20px;
+    background: #E5E5E5;
+    display: inline-block;
 }
