@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     padding-left: 70px;
     padding-right: 70px;
+    z-index: 10;
 }
 
 .tbc_logo {
@@ -24,8 +25,6 @@ li {
 
 ul {
     display: inline-block;
-    margin-left: 25px;
-    margin-right:25px;
 }
 
 .h1a {
@@ -35,6 +34,8 @@ ul {
     font-weight: 700;
     line-height: normal;
     display: inline-block;
+    margin-left: 25px;
+    margin-right:25px;
 }
 
 .h1a_active {
@@ -44,11 +45,48 @@ ul {
     font-weight: 700;
     line-height: normal;
     display: inline-block;
+    margin-left: 25px;
+    margin-right:25px;
 }
 
 .line {
-    width: 0.5px;
+    width: 1px;
     height: 20px;
     background: #E5E5E5;
     display: inline-block;
+}
+
+.fb {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    color: #E5E5E5;
+    margin-left: 25px;
+    margin-right: 18px;
+}
+
+.insta {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    color: #E5E5E5;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.yt {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    color: #E5E5E5;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+/* carousel */
+
+.carousel_image {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
 }
