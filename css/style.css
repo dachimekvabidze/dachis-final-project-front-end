@@ -84,9 +84,35 @@ ul {
 }
 
 /* carousel */
-
 .carousel_image {
     height: 600px;
     width: 100%;
     object-fit: cover;
+    display: block;
+}
+
+.carousel_link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* other page */
+
+.home_h1 {
+    color: #495057;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home_container {
+    width: 310px;
+    height: 450px;
 }
