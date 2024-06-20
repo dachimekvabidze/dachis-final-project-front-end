@@ -54,6 +54,7 @@ ul {
     height: 20px;
     background: #E5E5E5;
     display: inline-block;
+    transform: translate(20%, 20%);
 }
 
 .fb {
@@ -104,15 +105,78 @@ ul {
 
 /* other page */
 
+.s1 {
+    display: flex;
+    justify-items: space-around;
+}
+
 .home_h1 {
     color: #495057;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
+}
+
+.containers_div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 
 .home_container {
     width: 310px;
     height: 450px;
+    display: inline-block;
+}
+
+.container_image {
+    width: 310px;
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.container_date {
+    color: #6C757D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.container_h1 {
+    color: #495057;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.container_p {
+    color: #6C757D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.that_one_image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/that\ one\ image.jpg);
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+/* footer */
+
+footer {
+    background: #212529;
+    height: 400px;
 }
