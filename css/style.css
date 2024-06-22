@@ -121,7 +121,7 @@ ul {
 
 .containers_div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
@@ -167,11 +167,32 @@ ul {
 }
 
 .that_one_image {
+    display: flex;
     height: 600px;
     width: 100%;
     background-image: url(../images/that\ one\ image.jpg);
     background-size: cover;
     margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.that_one_h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.that_one_p {
+    color: #E5E5E5;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
 }
 
 /* footer */
@@ -179,4 +200,41 @@ ul {
 footer {
     background: #212529;
     height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.footer_contact {
+    width: 250px;
+}
+
+.footer_explore {
+    width: 150px;
+}
+
+.footer_headquarters {
+    width: 150px;
+}
+
+.connections {
+    width: 200px;
+}
+
+.footer_h1 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 138.889% */
+    margin-bottom: 16px;
+}
+
+.footer_p {
+    color: #E5E5E5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
 }
