@@ -317,4 +317,5 @@ footer {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 30px;
+    display: block;
 }
