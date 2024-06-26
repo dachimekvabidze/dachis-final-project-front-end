@@ -312,10 +312,28 @@ footer {
 
 .contact_us_h1 {
     color: #062d53;
+    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-bottom: 30px;
     display: block;
+}
+
+.contact_us_image {
+    height: 100px;
+    width: 100px;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.agarvicisaxeli {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
