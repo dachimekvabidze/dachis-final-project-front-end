@@ -338,3 +338,27 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+/* math */
+
+.math_image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/maths.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.math_image_h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
