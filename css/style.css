@@ -40,7 +40,7 @@ ul {
 
 .h1a_active {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -66,6 +66,10 @@ ul {
     margin-right: 18px;
 }
 
+.fb:hover {
+    color: #1877F2;
+}
+
 .insta {
     height: 20px;
     width: 20px;
@@ -75,6 +79,10 @@ ul {
     margin-right: 18px;
 }
 
+.insta:hover {
+    color: #FCAF45;
+}
+
 .yt {
     height: 20px;
     width: 20px;
@@ -82,6 +90,10 @@ ul {
     color: #E5E5E5;
     margin-left: 18px;
     margin-right: 18px;
+}
+
+.yt:hover {
+    color: #FF0000;
 }
 
 /* carousel */
@@ -101,6 +113,10 @@ ul {
     font-size: 70px;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.carousel_link:hover {
+    font-size: 80px;
 }
 
 /* other page */
@@ -203,6 +219,7 @@ footer {
     background: #212529;
     height: 400px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 100px;
 }
@@ -220,7 +237,7 @@ footer {
 }
 
 .connections {
-    width: 200px;
+    width: 150px;
 }
 
 .footer_h1 {
@@ -270,7 +287,8 @@ footer {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height:normal;
+    text-align: center;
 }
 
 .myimage {
@@ -278,6 +296,17 @@ footer {
     width: 25%;
     display: inline-block;
     border-radius: 25px;
+}
+
+.about_us {
+    background-color:#a9afb4;
+    border-radius: 25px;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* contact */
@@ -308,6 +337,7 @@ footer {
     background-color:#a9afb4;
     border-radius: 25px;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .contact_us_h1 {
@@ -319,6 +349,22 @@ footer {
     line-height: normal;
     margin-bottom: 30px;
     display: block;
+}
+
+.contact_us_h1a {
+    color: #062d53;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.contact_us_h1a:hover {
+    font-size: 45px;
+    color: #0a63bb;
 }
 
 .contact_us_image {
@@ -361,4 +407,41 @@ footer {
     font-weight: 700;
     line-height: normal;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.algebra_container {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.geometry_container {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.math_h1 {
+    color: #495057;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.math_a {
+    color: #495057;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.math_a:hover {
+    color: #88a7c7;
 }
