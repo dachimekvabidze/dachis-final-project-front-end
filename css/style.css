@@ -38,6 +38,10 @@ ul {
     margin-right:25px;
 }
 
+.h1a:hover {
+    color:#FFF;
+}
+
 .h1a_active {
     color: #ffffff;
     font-size: 15px;
@@ -58,8 +62,6 @@ ul {
 }
 
 .fb {
-    height: 20px;
-    width: 20px;
     display: inline-block;
     color: #E5E5E5;
     margin-left: 25px;
@@ -71,8 +73,6 @@ ul {
 }
 
 .insta {
-    height: 20px;
-    width: 20px;
     display: inline-block;
     color: #E5E5E5;
     margin-left: 18px;
@@ -84,8 +84,6 @@ ul {
 }
 
 .yt {
-    height: 20px;
-    width: 20px;
     display: inline-block;
     color: #E5E5E5;
     margin-left: 18px;
