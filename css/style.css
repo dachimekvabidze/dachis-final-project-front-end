@@ -443,3 +443,16 @@ footer {
 .math_a:hover {
     color: #88a7c7;
 }
+
+/* elipse */
+
+.elipse_sect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.elipsi {
+    width:80%;
+    font-size: 32px;
+}
